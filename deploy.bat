@@ -6,7 +6,6 @@ git commit -m "push"
 git remote add origin git@github.com:ZC1894/blog.git
 git branch -M main
 git push -u origin main
-pnpm install
 pnpm run docs:build
 
 cd ./src/.vuepress/dist/
